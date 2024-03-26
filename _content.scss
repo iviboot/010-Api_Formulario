@@ -1,0 +1,29 @@
+#content{
+
+    display: flex;
+    background-color: rgb(7, 209, 209);
+    opacity: 0.7;
+    
+    
+}
+
+img{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+
+    animation-name: mianimacion0;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative; left: 0px;top: 0px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion0 {
+    0%{border: solid rgb(245, 152, 31);}
+    25%{border: solid #00a1ff;}
+    50%{border: solid #ff7300;}
+    75%{border: solid #01d898;}
+    100%{border: solid #ccc;}
+}

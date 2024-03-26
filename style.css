@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+/* Estilos para el botón del menú */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #555;
+}
+
+/* Estilos para el contenido del menú desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.show {
+  display: block;
+}
+
+#content {
+  display: flex;
+  background-color: rgb(7, 209, 209);
+  opacity: 0.7;
+}
+
+img {
+  border: 2px solid rgb(0, 183, 255);
+  border-radius: 50%;
+  width: 80px;
+  height: 70px;
+  animation-name: mianimacion0;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion0 {
+  0% {
+    border: solid rgb(245, 152, 31);
+  }
+  25% {
+    border: solid #00a1ff;
+  }
+  50% {
+    border: solid #ff7300;
+  }
+  75% {
+    border: solid #01d898;
+  }
+  100% {
+    border: solid #ccc;
+  }
+}
+.fondo {
+  background-image: url("stars.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+  width: 20rem;
+  height: 22rem;
+  margin: auto;
+  margin-top: 10rem;
+  border: solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px -1px 17px 0px rgba(6, 202, 236, 0.75);
+  opacity: 0.7;
+  animation-name: mianimacion0;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  animation-iteration-count: infinite;
+}
+
+.box input {
+  width: 300px;
+  height: 20px;
+  margin: 4px;
+}
+
+.boxtectarea {
+  resize: none;
+  width: 300px;
+  margin: 4px;
+}
+
+.box button {
+  margin-left: 6rem;
+  background-color: rgb(17, 17, 94);
+  border: 0px;
+  padding: 10px 40px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}/*# sourceMappingURL=style.css.map */
