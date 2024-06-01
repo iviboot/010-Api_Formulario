@@ -1,6 +1,6 @@
 Desarrollo Web.
 
-Api WhatssAp
+Api Whatssap
 
 Envio de formulario directo al chat de whatssap.
 
